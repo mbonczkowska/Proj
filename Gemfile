@@ -24,7 +24,7 @@ group :assets do
 #  gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
-  gem 'twitter-bootstrap-rails', '~> 2.1.4'
+  gem 'twitter-bootstrap-rails', '~> 2.2.0'
   gem 'jquery-ui-rails', '~> 2.0.2'
   gem 'jquery-datatables-rails', '~> 1.11.1'
 end
@@ -47,12 +47,12 @@ group :development do
   # gem 'populator'
   # wylacza logowanie *assets pipeline*
   gem 'quiet_assets', '~> 1.0.1'
-  gem 'rspec-rails', '~> 2.11.0'
+  gem 'rspec-rails', '~> 2.12.2'
 end
 # alternatywa dla serwera Webrick
 gem 'thin'
 gem 'rmagick', '~> 2.13.1'
-gem 'carrierwave', '~> 0.7.0'
-gem 'paperclip', '~> 3.0'
+gem 'carrierwave', '~> 0.8.0'
+gem 'paperclip', '~> 3.4.0'
 gem 'omniauth-facebook'
 
