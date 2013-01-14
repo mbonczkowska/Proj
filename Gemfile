@@ -51,7 +51,7 @@ group :development do
 end
 # alternatywa dla serwera Webrick
 gem 'thin'
-gem 'rmagick', '~> 2.13.1'
+ 
 gem 'carrierwave', '~> 0.8.0'
 gem 'paperclip', '~> 3.4.0'
 gem 'omniauth-facebook'
