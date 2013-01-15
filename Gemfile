@@ -14,7 +14,7 @@ gem 'acts-as-taggable-on', '~> 2.3.3'
 #   http://rubydoc.info/github/jnicklas/capybara#Using_Capybara_with_RSpec
 gem 'capybara', '~> 1.1.2', :groups => :test
 
-gem 'sqlite3', :groups => [:test, :development]
+# gem 'sqlite3', :groups => [:test, :development]
 gem 'pg', :groups => :production 
 
 
@@ -48,6 +48,10 @@ group :development do
   # wylacza logowanie *assets pipeline*
   gem 'quiet_assets', '~> 1.0.1'
   gem 'rspec-rails', '~> 2.12.2'
+end
+
+group :development, :test do 
+  gem 'sqlite3-ruby', :require => 'sqlite3'
 end
 # alternatywa dla serwera Webrick
 gem 'thin'
