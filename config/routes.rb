@@ -1,6 +1,6 @@
 Radio::Application.routes.draw do 
   devise_for :users
-   ActiveSupport::Deprecation.silenced = true 
+ 
   get "sessions/new"
 
   get "sessions/create"
